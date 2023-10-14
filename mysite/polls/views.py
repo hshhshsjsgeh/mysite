@@ -2,7 +2,6 @@
 views
 """
 # from django.shortcuts import render
-import django
 from django.http import HttpResponse
 
 # Create your views here.

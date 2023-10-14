@@ -20,3 +20,25 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# python -m django --version
+# django-admin startproject mysite
+# python manage.py runserver
+# python manage.py runserver 8080
+# python manage.py runserver 0.0.0.0:8080
+# python manage.py startapp polls
+# python manage.py migrate
+# python manage.py makemigrations polls
+# python manage.py sqlmigrate polls 0001
+# python manage.py check
+# python manage.py shell
+
+# from polls.models import Choice, Question
+# from django.utils import timezone
+# q = Question(question_text="What's new?", pub_date=timezone.now())
+# q.id
+# q.question_text
+# q.pub_date
+# q.question_text = "What's up?"
+# q.save()
+# Question.objects.all()
