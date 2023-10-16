@@ -23,6 +23,9 @@ class Question(models.Model):
         except TypeError:
             return str(self.question_text)
     def was_published_recently(self):
+        """
+        was_published_recently
+        """
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
 class Choice(models.Model):
